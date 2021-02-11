@@ -45,5 +45,5 @@ app.get('/:name', async (req, res) => {
 
 
 app.listen(8080, () => {
-    console.log("ahai")
+    console.log(`ready to rock`)
 })

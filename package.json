@@ -4,11 +4,12 @@
   "description": "make api to get instagram images using puppeteer",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "dedhe <tn.syaifullah@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "puppeteer": "^7.0.4"
   }
 }
