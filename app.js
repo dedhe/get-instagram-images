@@ -34,7 +34,9 @@ let data = async function (name) {
 app.get('/:name', async (req, res) => {
     let {name} = req.params
     try {
-        res.json(await data(name))
+        res.json({
+            success : true,
+            data : await data(name)})
     } catch (error) {
         console.log(error)
         res.json(error)
